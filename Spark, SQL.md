@@ -12,7 +12,9 @@ var df = spark.read.option("header", "true").option("inferSchema", "true").csv("
 
 df.createOrReplaceTempView("customer")
 
+// Spark.SQL syntax
 spark.sql("select country, avg(Salary) as MeanSalary, avg(age) as MeanAge from customer where Gender = 'Female' and Age > 18 group by country").show
 
-
+// Spark.Dataframe syntax
+df.filter($"Gender" === "Female" && $"Age" > 18).groupBy("Country").mean("Salary", "Age").show
 ```
