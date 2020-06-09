@@ -1,4 +1,4 @@
-```
+```sc
 // Import Spark
 import org.apache.spark.sql.SparkSession
 
