@@ -1,4 +1,4 @@
-```
+```sc
 val list = List(1,2,3,4,6,7)
 
 def even(num:Int): Boolean = {return num % 2 == 0}
