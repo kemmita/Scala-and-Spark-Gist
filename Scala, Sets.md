@@ -1,5 +1,5 @@
 1. like in Math, sets will not conatin any duplicates, sets can be declared as mutable if needed.
-```
+```sc
 val set = Set(22,55,33,22,55,33,55)
 
 // the above set will be reduced to 
