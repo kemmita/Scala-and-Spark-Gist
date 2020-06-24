@@ -17,3 +17,9 @@ val listNest = List(List(1,5,6), List(7,4,5), List(9,0,1))
 ```sc
 listNest.flatten.sorted.sum
 ```
+5. To add additional elements to a list, we will need to create a new list with a pre or append
+```sc
+  val num = List(1,2,3)
+  val num2 = num :+ 17
+  print(num2)
+```
