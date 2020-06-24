@@ -1,4 +1,4 @@
-```
+```sc
  val myMap = Map(("a", 1), ("b", 2))
  
  //by applying the key, to the map, it will return the value asscoiated with that key.
